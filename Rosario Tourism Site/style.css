@@ -1,0 +1,164 @@
+/* Add your existing CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #d0142c;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: large;
+    padding-left: 50px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+    margin-top: 8px; /* Adjust as needed */
+    border-radius: 8px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+    background-color: #d0142c;
+    color: white;
+    padding: 14px 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: light;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.logo-1{
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+
+/*footer*/
+footer {
+    margin-top: 0px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    display: flex; /* Use flexbox to align children */
+    justify-content: space-between; /* Distribute space evenly between children */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    text-align: center; /* Center text within footer */
+    align-items: flex-end; /* Align items at the bottom */
+    background-color: #466abf;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Adjust margins for specific elements within the footer */
+/* Footer styles */
+footer {
+    margin-top: 0px; /* Adjust as needed */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    background-color: #466abf;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+footer .col-lg-4 {
+    flex: 1; /* Each column takes equal space */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+footer ul li a {
+    color: #f1f1f1;
+    text-decoration: none; /* Remove underline */
+    align-items: end;
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Carousel Section */
+.carousel-item img {
+    height: 900px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the images cover the entire carousel item */
+}
+
+/* Section 2 */
+.section-2 .row .col-lg-6.align-items-stretch {
+    display: flex;
+    align-items: stretch;
+}
+.section-2 .row .col-lg-6.align-items-stretch img {
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+/* explore section */
+.place img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+.place {
+    margin-bottom: 30px;
+}
+
+/* filler section */
+.filler {
+    background-color: #466abf;
+}
